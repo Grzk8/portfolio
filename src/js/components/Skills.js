@@ -10,14 +10,13 @@ class Skills extends Component{
             <section className={'skills container'} id='skills'>
                 <p className={'skills_title'}>Umiejętności</p>
                 <div className={'skills_cont'}>
-                    {this.props.skills.map (s=>
-                        <>
-                            <div key={s.id}>
-                                <img className="cover" src={s.icon} height="120px" width="120px" />
-                                <p>{s.desctiption}</p>
-                            </div>
 
-                        </>
+                    {this.props.skills.map (s=>
+
+                            <div className={'skill'} key={s.id}>
+                                <img className="skill_icon" src={s.icon} alt="" />
+                                <p className={'skill_description'} >{s.desctiption}</p>
+                            </div>
                         )}
                    
                 </div>

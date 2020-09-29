@@ -10,16 +10,15 @@ class Portfolio extends Component{
             <section className={'portfolio container'} id='portfolio'>
                 <p className={'portfolio_title'}>Portfolio</p>
                 <div className={'portfolio_cont'}>
-                    {this.props.portfolio.map (p=>
-                        <>
-                            <div key={p.id}>
-                                <p>{p.title}</p>
-                                <a href={p.adressLive}>Live</a>
-                                <a href={p.adressGithub}>Code</a>
-                                <p>{p.desctiption}</p>
-                            </div>
 
-                        </>
+                    {this.props.portfolio.map (p=>
+                    
+                            <div className={'portfolio_cont_project'} key={p.id}>
+                                <div className={'portfolio_cont_project_title'} >{p.title}</div>
+                                <div className={'portfolio_cont_project_description'}>{p.desctiption}</div>
+                                <a className={'portfolio_cont_project_link'} target="_blank" href={p.adressLive}>Live</a>
+                                <a className={'portfolio_cont_project_link'} target="_blank" href={p.adressGithub}>Code</a>
+                            </div>
                         )}
                    
                 </div>

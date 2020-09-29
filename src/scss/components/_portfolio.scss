@@ -1,0 +1,41 @@
+.portfolio{
+    .portfolio_title{
+        font-size: 2em;
+        font-family: fa;
+        text-align: center;
+    }
+    .portfolio_cont{
+        display: flex;
+        justify-content: space-around;
+
+        .portfolio_cont_project{
+            width: 300px;
+            height: 500px;
+            border: 1px solid gray;
+            background-color: lightgrey;
+            padding-left: 20px;
+            .portfolio_cont_project_title{
+                font-size: 0,6em;
+                font-family: fa;
+                text-align: center;
+                font-weight: bold;
+            }
+            .portfolio_cont_project_description{
+                font-size: 0,2em;
+                font-family: fa;
+                font-style: italic;
+            }
+            .portfolio_cont_project_link{
+                color: black;
+                text-decoration: none;
+                font-family: fa;
+                font-size: 1em;
+                margin-left: 20px;
+                padding: 5px;
+                cursor: pointer;
+                border: 2px sloid black;
+                padding: 4px;
+            }
+        }
+    }
+}
