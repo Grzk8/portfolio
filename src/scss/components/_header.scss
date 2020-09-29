@@ -1,38 +1,41 @@
 .header{
     top: 0;
-    position: -webkit-sticky;
     position: sticky;
     box-shadow: 0px 0px 010px 10px rgba(41,41,41,.25);
+    background-color: white;
+    width: 100vw;
     .header_flex{
         justify-content: space-around;
         .header_info{
             padding: 10px;
             text-align: center;
             .header_info_name{
-                font-size: 50px;
+                font-size: 3em;
                 font-family: 'reeniebeani';
             }
             .header_info_description{
                 font-family: 'fa';
-                font-size: 17px;
+                font-size: 1em;
                 font-style: italic;
             }
         }
         .menuScroll{
             .scrollList{
               justify-content: flex-end;
-              padding-top: 30px;
+              padding-top: 2em;
               li {
                 .ScrollLink {
                   color: black;
                   text-decoration: none;
                   font-family: fascinate;
-                  font-size: 20px;
+                  font-size: 1em;
                   margin-left: 20px;
                   padding: 5px;
+                  color: grey;
                   cursor: pointer;
                   &:hover{
-                    border: 1px solid  black;
+                    color:  black;
+                    border-bottom: 3px solid black;
                   }
                 }
               }
