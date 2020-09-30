@@ -3,31 +3,39 @@
         font-size: 2em;
         font-family: fa;
         text-align: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
     .portfolio_cont{
         display: flex;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 1200px;
+        padding-left: 10%;
 
         .portfolio_cont_project{
             width: 300px;
-            height: 500px;
-            border: 1px solid gray;
-            background-color: lightgrey;
+            height: 450px;
+            border: 2px solid #333535;
+            background-color:#eefafa;
             padding-left: 20px;
             .portfolio_cont_project_title{
                 font-size: 2em;
                 font-family: fa;
                 text-align: center;
                 font-weight: bold;
+                padding-top: 8%;
             }
             .portfolio_pic{
-                width: 200px;
-                height: 200px;
+                width: 250px;
+                height: 150px;
+                padding-top: 10%;
+                
             }
             .portfolio_cont_project_description{
                 font-size: 0,2em;
                 font-family: fa;
-                font-style: italic;
+                padding-top: 10%;
+                padding-bottom: 20%;
             }
             .portfolio_cont_project_link{
                 color: black;
@@ -38,8 +46,8 @@
                 padding: 5px;
                 cursor: pointer;
                 border: 2px sloid black;
-                padding: 4px;
-            }
+                padding: 10px;
+                }
         }
     }
 }
