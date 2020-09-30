@@ -1,0 +1,25 @@
+.contact{
+    .contact_title{
+        font-size: 2em;
+        font-family: fa;
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .contactLogo{
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        display: block;
+    }
+    .mail{
+        background-image: url("https://img.icons8.com/fluent/96/000000/email-open.png");
+    }
+    .github{
+        background-image: url("https://img.icons8.com/fluent/240/000000/github.png");
+    }
+    .linkedin{
+        background-image: url("https://img.icons8.com/fluent/240/000000/linkedin.png");
+
+    }
+}

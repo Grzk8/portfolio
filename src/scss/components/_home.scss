@@ -1,11 +1,20 @@
 .home1{
     height: 100vh;
-    background-image: url('../../images/homeImage.jpg');
+    background-image: url('https://www.teahub.io/photos/full/88-882893_software-developer-wallpaper.png');
     background-size: cover;
-    .name {
+
+    .home_name {
         font-size: 600%;
         font-family: 'reeniebeani';
         text-align: center;
-        padding: 25%;
+        padding-top: 32%;
+        color: white;
+    }
+    .home_description{
+        font-family: 'fa';
+        font-size: 200%;
+        font-style: italic;
+        text-align: center;
+        color: white;
     }
 }

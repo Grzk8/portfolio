@@ -6,7 +6,8 @@ function Home() {
         <>
             <section className={'home container'} id='home'>
                 <div className={'home1'}>
-                    <div className={'name'}>Grzegorz Kaczor</div>
+                    <div className={'home_name'}>Grzegorz Kaczor</div>
+                    <div className={'home_description'}>Front-end developer</div>
                 </div>
             </section>
         </>
