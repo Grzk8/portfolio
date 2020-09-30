@@ -15,12 +15,12 @@ class Portfolio extends Component{
                     
                             <div className={'portfolio_cont_project'} key={p.id}>
                                 <div className={'portfolio_cont_project_title'} >{p.title}</div>
+                                <img className="portfolio_pic" src={p.img} alt="" />
                                 <div className={'portfolio_cont_project_description'}>{p.desctiption}</div>
                                 <a className={'portfolio_cont_project_link'} target="_blank" href={p.adressLive}>Live</a>
                                 <a className={'portfolio_cont_project_link'} target="_blank" href={p.adressGithub}>Code</a>
                             </div>
                         )}
-                   
                 </div>
             </section>
      

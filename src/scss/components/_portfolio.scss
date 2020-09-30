@@ -15,10 +15,14 @@
             background-color: lightgrey;
             padding-left: 20px;
             .portfolio_cont_project_title{
-                font-size: 0,6em;
+                font-size: 2em;
                 font-family: fa;
                 text-align: center;
                 font-weight: bold;
+            }
+            .portfolio_pic{
+                width: 200px;
+                height: 200px;
             }
             .portfolio_cont_project_description{
                 font-size: 0,2em;
