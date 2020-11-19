@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {HashRouter} from 'react-router-dom';
+import Project from './Project';
 
 class Portfolio extends Component{
 
@@ -12,23 +13,13 @@ class Portfolio extends Component{
                 <div className={'portfolio_cont'}>
 
                     {this.props.portfolio.map (p=>
-                    
-                            <div className={'portfolio_cont_project'} key={p.id}>
-                                <div className={'portfolio_cont_project_title'} >{p.title}</div>
-                                <img className="portfolio_pic" src={p.img} alt="" />
-                                <div className={'portfolio_cont_project_description'}>{p.desctiption}</div>
-                                <div className={'portfolio_cont_project_buttons'}>
-                                    <div className={'portfolio_cont_project_button'}>
-                                        <a className={'portfolio_cont_project_link'} target="_blank" rel="noopener noreferrer" href={p.adressLive}>Live</a>
-                                    </div>
-                                    <div className={'portfolio_cont_project_button'}>
-                                        <a className={'portfolio_cont_project_link'} target="_blank" rel="noopener noreferrer" href={p.adressGithub}>Code</a>
-                                    </div>
-                                </div>
-                                
-                                
-                                
-                            </div>
+                        < Project 
+                            key={p.id} 
+                            title={p.title} 
+                            img={p.img} 
+                            desctiption={p.desctiption} 
+                            adressLive={p.adressLive} 
+                            adressGithub={p.adressGithub}/>
                         )}
                 </div>
             </section>

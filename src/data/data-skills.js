@@ -6,7 +6,7 @@ const skill = [
     {id:5, icon: "https://img.icons8.com/officel/480/000000/react.png", desctiption: "React JS"},
     {id:6, icon: "https://img.icons8.com/color/480/000000/git.png", desctiption: "Git"},
     {id:7, icon: "https://img.icons8.com/dusk/512/000000/webpack.png", desctiption: "Webpack"},
-    {id:8, icon: "https://img.icons8.com/color/480/000000/redux.png", desctiption: "Redux - uczę się"},  
+    {id:8, icon: "https://img.icons8.com/color/480/000000/redux.png", desctiption: "Redux"},  
     ]
 
 export default skill;
