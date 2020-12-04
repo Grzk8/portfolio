@@ -17,7 +17,7 @@ class Skills extends Component{
                             id={skill.id} 
                             icon={skill.icon} 
                             desctiption={skill.desctiption}/>
-                        )};
+                        )}
                 </div>
 
             </section>
