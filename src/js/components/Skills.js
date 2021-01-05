@@ -9,7 +9,7 @@ class Skills extends Component{
         return(
             <HashRouter>
             <section className={'skills container'} id='skills'>
-                <p className={'skills_title'}>Technologie</p>
+                <p className={'skills_title'}>Narzędzia i technologie</p>
                 <div className={'skills_cont'}>
 
                     {this.props.skills.map (skill=>

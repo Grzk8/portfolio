@@ -33,3 +33,22 @@
         
     }
 }
+
+@media (max-width: 600px) {
+    .skills{
+        .skills_title{
+        }
+        .skills_cont{
+            .skill{
+                .skill_icon{
+                    opacity: 1;
+                    &:hover{
+                        transform: none;
+    
+                      }
+                }
+            }
+            
+        }
+    }
+}

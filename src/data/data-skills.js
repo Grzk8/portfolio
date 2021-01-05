@@ -4,9 +4,11 @@ const skill = [
     {id:3, icon: "https://img.icons8.com/color/480/000000/javascript.png", desctiption: "JavaScript"},
     {id:4, icon: "https://img.icons8.com/color/480/000000/sass.png", desctiption: "SASS"},
     {id:5, icon: "https://img.icons8.com/officel/480/000000/react.png", desctiption: "React JS"},
-    {id:6, icon: "https://img.icons8.com/color/480/000000/git.png", desctiption: "Git"},
-    {id:7, icon: "https://img.icons8.com/dusk/512/000000/webpack.png", desctiption: "Webpack"},
-    {id:8, icon: "https://img.icons8.com/color/480/000000/redux.png", desctiption: "Redux"},  
+    {id:6, icon: "https://img.icons8.com/color/480/000000/redux.png", desctiption: "Redux"},
+    {id:7, icon: "https://img.icons8.com/color/480/000000/typescript.png", desctiption: "TypeScript"},
+    {id:8, icon: "https://img.icons8.com/dusk/512/000000/webpack.png", desctiption: "Webpack"},
+    {id:9, icon: "https://img.icons8.com/dusk/512/000000/webpack.png", desctiption: "Webpack"},
+      
     ]
 
 export default skill;
