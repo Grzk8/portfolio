@@ -17,7 +17,8 @@ class Portfolio extends Component{
                             key={p.id} 
                             title={p.title} 
                             img={p.img} 
-                            desctiption={p.desctiption} 
+                            desctiption={p.desctiption}
+                            tags={p.tags}
                             adressLive={p.adressLive} 
                             adressGithub={p.adressGithub}/>
                         )}

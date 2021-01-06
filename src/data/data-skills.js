@@ -7,7 +7,7 @@ const skill = [
     {id:6, icon: "https://img.icons8.com/color/480/000000/redux.png", desctiption: "Redux"},
     {id:7, icon: "https://img.icons8.com/color/480/000000/typescript.png", desctiption: "TypeScript"},
     {id:8, icon: "https://img.icons8.com/dusk/512/000000/webpack.png", desctiption: "Webpack"},
-    {id:9, icon: "https://img.icons8.com/dusk/512/000000/webpack.png", desctiption: "Webpack"},
+    {id:9, icon: "https://img.icons8.com/color/480/000000/git.png", desctiption: "Git"},
       
     ]
 

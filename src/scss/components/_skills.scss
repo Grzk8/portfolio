@@ -39,8 +39,11 @@
         .skills_title{
         }
         .skills_cont{
+            width: 60vh;
             .skill{
                 .skill_icon{
+                    height: 100px;
+                    width: 100px;
                     opacity: 1;
                     &:hover{
                         transform: none;
