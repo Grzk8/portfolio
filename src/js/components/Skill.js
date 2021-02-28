@@ -5,6 +5,7 @@ const skill = props => {
         <div className={'skill'} key={props.id}>
         <img className="skill_icon" src={props.icon} alt="" />
         <p className={'skill_description'} >{props.desctiption}</p>
+        
     </div>
     )
 };
