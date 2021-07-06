@@ -4,8 +4,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 
 function Header() {
-    return <HashRouter>
-        <>
+    return <>
         <section className={'header'}>
           <div className={'header_flex flex-box'}>
             <div className={'header_info'}>
@@ -23,8 +22,7 @@ function Header() {
             </div>
           </div>
         </section>
-        
-        </>
-    </HashRouter>
+      </>
+
 }
 export default Header;

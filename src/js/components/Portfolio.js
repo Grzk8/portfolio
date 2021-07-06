@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-import {HashRouter} from 'react-router-dom';
 import Project from './Project';
 
 class Portfolio extends Component{
-
-    render(){
-            
+    render(){     
         return(
-            <HashRouter>
             <section className={'portfolio container'} id='portfolio'>
                 <p className={'portfolio_title'}>Portfolio</p>
                 <div className={'portfolio_cont'}>
@@ -24,8 +20,6 @@ class Portfolio extends Component{
                         )}
                 </div>
             </section>
-     
-        </HashRouter>
         )
     }
 }

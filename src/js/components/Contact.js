@@ -1,9 +1,7 @@
 import React from 'react';
-import {HashRouter} from 'react-router-dom';
 
 function Contact() {
-    return <HashRouter>
-        <>
+    return <>
             <section className={'contact container'} id='contact'>
             <p className={'contact_title'}>Kontakt</p>
             <div className={'contact_cont'}>
@@ -18,7 +16,6 @@ function Contact() {
                 </div>
             </div>
             </section>
-        </>
-    </HashRouter>
+    </>
 }
 export default Contact;

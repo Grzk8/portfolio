@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
-import {HashRouter} from 'react-router-dom';
 import Skill from './Skill';
-import learning_skill from '../../data/learning-skill';
 
 class Skills extends Component{
-
-    render(){
-            
+    render(){        
         return(
-            <HashRouter>
             <section className={'skills container'} id='skills'>
                 <p className={'skills_title'}>Narzędzia i technologie</p>
                 <div className={'skills_cont'}>
@@ -19,7 +14,6 @@ class Skills extends Component{
                             desctiption={skill.desctiption}/>
                         )}
                 </div>
-
                 <p className={'skills_title'}>Uczę się</p>
                 <div className={'skills_cont'}>
                 {this.props.learning.map (skill=>
@@ -30,7 +24,6 @@ class Skills extends Component{
                         )}
                 </div>
             </section>
-        </HashRouter>
         );
     };
 };
