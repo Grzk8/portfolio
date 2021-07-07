@@ -2,8 +2,8 @@ import React from 'react';
 
 function About() {
     return <>
-            <section className={'about container'} id='about'>
-                <p className={'about_title'}>O mnie</p>
+            <section className={'container'} id='about'>
+                <p className={'title'}>O mnie</p>
                 <p className={'about_text'}>
                 Mam na imię Grzesiek i jestem Front-end developerem z Krakowa. 
                 Ukończyłem studia na kierunku metalurgia na Akademii Górniczo-Hutniczej oraz na kierunku inżynieria produkcji na Politechnice Krakowskiej. 
@@ -20,6 +20,5 @@ function About() {
                 </p>
             </section>
         </>
-
 }
 export default About;

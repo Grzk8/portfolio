@@ -10,9 +10,7 @@
       .home_name {
           color: red;
           padding-top: 28%;
-      }
-
-   
+      } 
 }
 @media screen and  (min-width: 601px) and (max-width: 800px){
     .container{
@@ -35,5 +33,24 @@
     }
     .home_name{
         font-size: 20%;
+    }
+}
+@media (max-width: 600px) {
+    .skills{
+        .skills_cont{
+            width: 60vh;
+            .skill{
+                .skill_icon{
+                    height: 100px;
+                    width: 100px;
+                    opacity: 1;
+                    &:hover{
+                        transform: none;
+    
+                      }
+                }
+            }
+            
+        }
     }
 }

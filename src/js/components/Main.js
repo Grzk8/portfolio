@@ -11,20 +11,15 @@ import projects from '../../data/projects';
 import Courses from './Courses'
 
 class Main extends Component {
-
     render(){
-
-        return <HashRouter>
-        <>
-            <Home/>
-            <About/>
-            <Skills skills={skill} learning={learning_skill}/>
-            <Courses />
-            <Portfolio portfolio={projects}/>
-            <Contact/>
-        </>
-    </HashRouter>
+        return <>
+                <Home/>
+                <About/>
+                <Skills skills={skill} learning={learning_skill}/>
+                <Courses />
+                <Portfolio portfolio={projects}/>
+                <Contact/>
+                </>
     }    
-
 }
 export default Main;

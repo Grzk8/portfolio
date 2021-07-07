@@ -3,9 +3,9 @@ import Project from './Project';
 
 class Portfolio extends Component{
     render(){     
-        return(
-            <section className={'portfolio container'} id='portfolio'>
-                <p className={'portfolio_title'}>Portfolio</p>
+        return<>
+            <section className={'container'} id='portfolio'>
+                <p className={'title'}>Portfolio</p>
                 <div className={'portfolio_cont'}>
 
                     {this.props.portfolio.map (p=>
@@ -20,7 +20,7 @@ class Portfolio extends Component{
                         )}
                 </div>
             </section>
-        )
+        </>
     }
 }
 export default Portfolio;
