@@ -34,23 +34,20 @@
     .home_name{
         font-size: 20%;
     }
-}
-@media (max-width: 600px) {
-    .skills{
-        .skills_cont{
-            width: 60vh;
-            .skill{
-                .skill_icon{
-                    height: 100px;
-                    width: 100px;
-                    opacity: 1;
-                    &:hover{
-                        transform: none;
-    
-                      }
-                }
+    .skills_cont{
+        width: 60vh;
+        .skill{
+            .skill_icon{
+                height: 100px;
+                width: 100px;
+                opacity: 1;
+                &:hover{
+                    transform: none;
+
+                  }
             }
-            
         }
+        
     }
+    
 }

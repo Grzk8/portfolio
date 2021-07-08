@@ -1,5 +1,6 @@
 @import "./settings/_reset.scss";
 @import "./settings/fonts";
+@import "./components/main_component";
 @import "./components/about";
 @import "./components/contact";
 @import "./components/footer";
@@ -7,6 +8,5 @@
 @import "./components/home";
 @import "./components/portfolio";
 @import "./components/skills";
+@import "./components/course";
 @import "./components/media";
-@import "./components/courses";
-@import "./components/main_component";

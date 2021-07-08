@@ -1,0 +1,23 @@
+.courses_cont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.course{
+    padding-right: 30px;
+    .course_small{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 120px;
+        width: 120px;
+    }
+    .course_description{
+        font-size: 0,2em;
+        font-family: fa;
+        text-align: center;
+        max-width: 30vh;
+    }
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Skill from './Skill';
+import Skill from './main_components/Skill';
 
 class Skills extends Component{
     render(){        

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Project from './Project';
+import Project from './main_components/Project';
 
 class Portfolio extends Component{
     render(){     
