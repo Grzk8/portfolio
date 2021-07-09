@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import courses from '../../../data/courses';
 import Course from './main_components/Course';
 
 class Courses extends Component{
+
     render(){     
+        console.log(this.props.courses)
         return<>
             <section className={'container'} id='courses'>
                 <p className={'title'}>Kursy</p>
@@ -12,7 +13,8 @@ class Courses extends Component{
                             <Course 
                                 id={courses.id}
                                 pic={courses.pic} 
-                                name={courses.name}/>
+                                name={courses.name}
+                                link={courses.link}/>
                             )}
                 </div>
             </section>

@@ -2,10 +2,13 @@ import React from 'react';
 
 const course = props => {
     return (
+        <>
         <div className='course' key={props.id}>
-            <img className='course_small' src={props.pic} alt="" />
+            <a href={props.link}>
+                <img src={props.pic} className="course_small" target="_blank"/>
+            </a>
             <p className='course_description' >{props.name}</p>
-        </div>
+        </div></>
     )
 };
 
