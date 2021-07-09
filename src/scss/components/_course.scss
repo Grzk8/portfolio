@@ -15,9 +15,15 @@
         width: 160px;
     }
     .course_description{
+        padding-top: 30px;
         font-size: 0,2em;
         font-family: fa;
         text-align: center;
         max-width: 30vh;
+        font-weight: bold;
+    }
+    .organizer{
+        font-weight: normal;
+        padding-top: 10px;
     }
 }
