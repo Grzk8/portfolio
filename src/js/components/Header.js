@@ -15,6 +15,7 @@ function Header() {
                 <li><ScrollLink className='ScrollLink start' to={'home'} spy={true}>START</ScrollLink></li>
                 <li><ScrollLink className='ScrollLink' to={'about'} spy={true}>O MNIE</ScrollLink></li>
                 <li><ScrollLink className='ScrollLink' to={'skills'} spy={true}>SKILLS</ScrollLink></li>
+                <li><ScrollLink className='ScrollLink' to={'courses'} spy={true}>KURSY</ScrollLink></li>
                 <li><ScrollLink className='ScrollLink' to={'portfolio'} spy={true}>PORTFOLIO</ScrollLink></li>
                 <li><ScrollLink className='ScrollLink' to={'contact'} spy={true}>KONTAKT</ScrollLink></li>
               </ul>
