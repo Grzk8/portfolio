@@ -11,7 +11,6 @@ function About() {
                 </p>
                 <p className={'about_text'}>Postanowiłem jednak kształcić się w kierunku web developmentu.
                 Programowaniem zajmuję się od półtora roku. Swoje projekty tworzyłem głównie za pomocą React w kierunku którego chciałbym się dalej rozwijać.
-                Jednocześnie uczę się także technologii umożliwiających budowanie aplikacji po stronie serwera: NodeJS, Express.js, SQL, MVC, NoSQL, GraphQL, Deno.js.
                 Staram się używać poprawnego i semantycznego kodu HTML i CSS, korzystam ze składni preprocesora Sass.
                 Ukończyłem kursy: JavaScript Developer: React organizowany przez szkołę programowania CodersLab 
                 oraz kurs Udemy – React - The Complete Guide (incl Hooks, React Router, Redux) Academind by Maximilian Schwarzmüller.
