@@ -9,10 +9,10 @@ const project = props => {
         <div className={'portfolio_cont_project_tags'}>{props.tags}</div>
         <div className={'portfolio_cont_project_buttons'}>
             <div className={'portfolio_cont_project_button'}>
-                <a className={'portfolio_cont_project_link'} target="_blank" rel="noopener noreferrer" href={props.adressLive}>Live</a>
+                <a className={'portfolio_cont_project_link'} target="_blank" rel="noopener noreferrer" href={props.adressLive}>Podgląd</a>
             </div>
             <div className={'portfolio_cont_project_button'}>
-                <a className={'portfolio_cont_project_link'} target="_blank" rel="noopener noreferrer" href={props.adressGithub}>Code</a>
+                <a className={'portfolio_cont_project_link'} target="_blank" rel="noopener noreferrer" href={props.adressGithub}>Kod</a>
             </div>
         </div>
     </div>
