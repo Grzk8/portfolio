@@ -4,7 +4,7 @@ function Footer() {
     return (
             <div className={'footer'}>
                 <div className={'footer_created'}>
-                    Grzegorz Kaczor &copy; 2020
+                    Grzegorz Kaczor &copy; 2022
                 </div>
             </div>
             ) 

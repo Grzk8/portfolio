@@ -10,8 +10,13 @@ function About() {
                 W trakcie swojej kariery zawodowej pracowałem przez wiele lat w przemyśle. 
                 </p>
                 <p className={'about_text'}>Postanowiłem jednak kształcić się w kierunku web developmentu.
-                Programowaniem zajmuję się od półtora roku. Swoje projekty tworzyłem głównie za pomocą React w kierunku którego chciałbym się dalej rozwijać.
-                Staram się używać poprawnego i semantycznego kodu HTML i CSS, korzystam ze składni preprocesora Sass.
+                Programowaniem zajmuję się od półtora roku. Swoje projekty
+                tworzyłem głównie za pomocą React, lecz jestem otwarty na naukę
+                innych technologii, frameworków. Staram się używać poprawnego i
+                semantycznego kodu HTML i CSS, korzystam ze składni
+                preprocesora Sass, bibliotek Bootstrap, jQuery, React także Redux.
+                Jednocześnie uczę się również technologii back-endowych: Node.js,
+                Express.js, MongoDb, GraphQl.
                 Ukończyłem kursy: JavaScript Developer: React organizowany przez szkołę programowania CodersLab 
                 oraz kurs Udemy – React - The Complete Guide (incl Hooks, React Router, Redux) Academind by Maximilian Schwarzmüller.
                 </p>

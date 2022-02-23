@@ -7,11 +7,11 @@ import '../App.css';
 
 function App() {
   return(
-    <>
+    <section className={'app'}>
       <Header/>
       <Main/>
       <Footer/>
-    </>
+    </section>
   )
 }
 export default App;
