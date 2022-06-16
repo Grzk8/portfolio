@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
     return <>
         <section className={'container'} id='contact'>
-                <p className={'title'}>Kontakt</p>
+                <p className={'title'}>Contact</p>
                 <div className={'contact_cont'}>
                     <div className={'contact_cont_mail'}>
                         <a className="contactLogo mail" href="mailto:grzesiek125@op.pl"> </a> 

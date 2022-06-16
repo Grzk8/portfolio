@@ -5,7 +5,7 @@ class Portfolio extends Component{
     render(){     
         return<>
             <section className={'container'} id='portfolio'>
-                <p className={'title'}>Portfolio</p>
+                <p className={'title'}>Projects</p>
                 <div className={'portfolio_cont'}>
 
                     {this.props.portfolio.map (p=>

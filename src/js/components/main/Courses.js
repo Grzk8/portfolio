@@ -7,7 +7,7 @@ class Courses extends Component{
         console.log(this.props.courses)
         return<>
             <section className={'container'} id='courses'>
-                <p className={'title'}>Kursy i certyfikaty</p>
+                <p className={'title'}>Courses and certificates</p>
                 <div className={'courses_cont'}>
                     {this.props.courses.map (courses=>
                             <Course 
