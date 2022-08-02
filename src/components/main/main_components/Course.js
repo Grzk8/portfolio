@@ -9,7 +9,7 @@ const course = props => {
             <p className='course_description' >{props.name}</p>
             <p className='course_description organizer' >{props.organizer}</p>
         </div>
-    )
+    );
 };
 
 export default course;

@@ -6,7 +6,7 @@ const skill = props => {
             <img className='skill_icon' src={props.icon} alt="" />
             <p className='skill_description' >{props.desctiption}</p>
         </div>
-    )
+    );
 };
 
 export default skill;
