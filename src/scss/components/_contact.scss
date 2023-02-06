@@ -1,20 +1,43 @@
-.contact_cont{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 10%;
+.contact_container {
+    background-color: rgb(44, 43, 43);
+    height: 100%;
+    
+    .contact_container_cont {
+        padding: 3% 0 0 0;
+        
+        .contact_container_cont-icons{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 5%;
+            max-width: 40%;
+            margin: auto;
+            padding-bottom: 3%;
+            border-bottom: 1px solid rgb(133, 109, 65);
+        }
+        .contactLogo{
+            width: 50px;
+            height: 50px;
+            background-size: cover;
+            display: block;
+        }
+        .top {
+            background-image: url("../../images/icons/top.png");
+            margin: auto;
+        }
+        .mail{
+            background-image: url("https://img.icons8.com/fluent/96/000000/email-open.png");
+        }
+        .github{
+            background-image: url("https://img.icons8.com/fluent/240/000000/github.png");
+        }
+        .linkedin{
+            background-image: url("https://img.icons8.com/fluent/240/000000/linkedin.png");
+        }
+    }
+    .contact_container_cont-created {
+        text-align: center;
+        color: rgb(133, 109, 65);
+        padding: 3%;
+    }
 }
-.contactLogo{
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    display: block;
-}
-.mail{
-    background-image: url("https://img.icons8.com/fluent/96/000000/email-open.png");
-}
-.github{
-    background-image: url("https://img.icons8.com/fluent/240/000000/github.png");
-}
-.linkedin{
-    background-image: url("https://img.icons8.com/fluent/240/000000/linkedin.png");
-}
+

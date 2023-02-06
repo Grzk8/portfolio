@@ -4,9 +4,9 @@ import Skill from './main_components/Skill';
 class Skills extends Component {
     render() {
         return <>
-            <section className={'container'} id='skills'>
-                <p className={'title'}>Skills and technologies</p>
-                <div className={'skills_cont'}>
+            <section className={'skills_container'} id='skills'>
+                <p className={'title'}>technologies and tools that I use</p>
+                <div className={'skills_container-skills'}>
 
                     {this.props.skills.map(skill =>
                         <Skill
@@ -15,7 +15,7 @@ class Skills extends Component {
                             desctiption={skill.desctiption}
                         />
                     )}
-                    
+
                 </div>
             </section>
         </>

@@ -7,9 +7,9 @@ import './App.css';
 const App = () => {
   return (
     <section className={'app'}>
-      <Header />
+      {/* <Header /> */}
       <Main />
-      <Footer />
+      {/* <Footer /> */}
     </section>
   );
 };

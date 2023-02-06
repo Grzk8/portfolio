@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import About from './main/About.js';
 import Contact from './main/Contact.js';
 import Portfolio from './main/Portfolio';
@@ -10,14 +10,14 @@ import Courses from './main/Courses'
 import courses from '../data/courses'
 
 const Main = () => {
-    return <>
+    return <div className="main_container">
         <Home />
         <About />
         <Skills skills={skill} />
-        <Courses courses={courses} />
+        {/* <Courses courses={courses} /> */}
         <Portfolio portfolio={projects} />
         <Contact />
-    </>
+    </div>
 };
 
 export default Main;

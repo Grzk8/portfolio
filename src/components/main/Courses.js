@@ -6,9 +6,9 @@ class Courses extends Component {
     render() {
         console.log(this.props.courses)
         return <>
-            <section className={'container'} id='courses'>
-                <p className={'title'}>Courses and certificates</p>
-                <div className={'courses_cont'}>
+            <section className={'courses_container'} id='courses'>
+                <p className={'title'}>courses and certificates</p>
+                <div className={'courses_container-courses'}>
 
                     {this.props.courses.map(courses =>
                         <Course
@@ -17,7 +17,7 @@ class Courses extends Component {
                             name={courses.name}
                             organizer={courses.organizer}
                             link={courses.link} />
-                    )};
+                    )}
 
                 </div>
             </section>

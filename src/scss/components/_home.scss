@@ -1,22 +1,60 @@
-.home1{
+// .home {
+//     height: 100vh;
+//     width: 100%;
+//     //background-image: url('https://raw.githubusercontent.com/Grzk8/Portfolio/dev/src/images/courses/background.png');
+//     //background-size: cover;
+//     display: flex;
+//     justify-content: start;
+// }
+
+.home_container {
+    display: flex;
     height: 100vh;
-    width: auto;
-    background-image: url('https://raw.githubusercontent.com/Grzk8/Portfolio/dev/src/images/courses/background.png');
-    background-size: cover;
-    
-    .home_name {
-        font-size: 600%;
-        font-family: 'reeniebeani';
-        text-align: center;
-        padding-top: 32%;
-        color: white;
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 10%;
+    background-color:rgb(247, 241, 234);
+
+    .home_container_photo {
+        //border: 1px solid white;
+        width: 50%;
+        padding-right: 3%;
+
+        .home_container_photo-photo {
+                width: 60%;
+                float: right;
+        }
     }
-    .home_description{
-        font-family: 'fa';
-        font-size: 200%;
-        font-style: italic;
-        text-align: center;
-        color: white;
+
+    .home_container_introduction {
+        width: 50%;
+        padding-top: 10%;
+
+        .home_container_introduction-text{
+            font-family: 'fa';
+            font-size: 2em;
+            font-style: italic;
+            padding-left: 3%;
+            color: rgb(0, 0, 0);
+        }
+
+                .home_container_introduction-name {
+            font-size: 3em;
+            margin: 10px 0 10px 0;
+            font-family: 'reeniebeani';
+            color: rgb(0, 0, 0);
+            font-weight:500;
+            //padding-left: 5%;
+        }
     }
 }
 
+@media screen and (max-width: 750px) {
+    .home_container {
+        flex-direction: column;
+
+        .home_container_introduction {
+            margin: 20% 0 0 20%;
+        }
+    }
+}
