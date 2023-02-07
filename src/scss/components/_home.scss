@@ -1,12 +1,3 @@
-// .home {
-//     height: 100vh;
-//     width: 100%;
-//     //background-image: url('https://raw.githubusercontent.com/Grzk8/Portfolio/dev/src/images/courses/background.png');
-//     //background-size: cover;
-//     display: flex;
-//     justify-content: start;
-// }
-
 .home_container {
     display: flex;
     height: 100vh;
@@ -16,7 +7,6 @@
     background-color:rgb(247, 241, 234);
 
     .home_container_photo {
-        //border: 1px solid white;
         width: 50%;
         padding-right: 3%;
 
@@ -52,9 +42,16 @@
 @media screen and (max-width: 750px) {
     .home_container {
         flex-direction: column;
+        padding-top: 2%;
 
         .home_container_introduction {
-            margin: 20% 0 0 20%;
+            margin: 5% 0 0 20%;
+            width: 90%;
         }
+
+        .home_container_photo {
+            width: 70%;
+        }
+
     }
 }

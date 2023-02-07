@@ -10,7 +10,7 @@
 
         .about_container-photo {
             float: right;
-            width: 20%;
+            width: 30%;
             margin-left: 10%;
 
         }
@@ -30,6 +30,20 @@
             padding: 2%;
         }
     }
+}
 
-
+@media screen and (max-width: 750px) {
+    .about {
+        .about_container {
+            .about_container-photo {
+                width: 45%;
+            }
+            .about_container-text {
+                font-size: 1em;
+            }
+        }
+    }
+    .about_container-photo {
+        width: 100%;
+    }
 }
